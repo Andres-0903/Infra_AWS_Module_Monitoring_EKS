@@ -40,7 +40,7 @@ Agrega este bloque en tu archivo `main.tf` o `monitoreo.tf`:
 
 ```hcl
 module "eks_monitoring" {
-  source = "git::https://github.com/Andres-0903/Infra_AWS_Module_Monitoring_EKS.git?ref=1.0.1"
+  source = "git::https://github.com/Andres-0903/Infra_AWS_Module_Monitoring_EKS.git//EKS?ref=1.0.1"
 
   cluster_name = [
     "eks-dev",
