@@ -5,10 +5,10 @@ Este módulo de Terraform permite configurar el monitoreo de instancias EKS en A
 
 ---
 
-module "ec2_monitoring" { source = "git::https://github.com/Andres-0903/Infra_AWS_Module_Monitoring_EKS.git?ref=1.0.1"
+module "eks_monitoring" { source = "git::https://github.com/Andres-0903/Infra_AWS_Module_Monitoring_EKS.git?ref=1.0.1"
 
-cluster_name = ###Nombre del cluster
-sns_topic_arn = ##Nombre del SNS Topic
+cluster_name = var.cluster_name
+sns_topic_arn = var.sns_topic
 
 }
 
