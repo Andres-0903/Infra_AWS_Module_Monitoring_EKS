@@ -1,9 +1,7 @@
-## Infra_AWS_Module_Monitoring_EC2
-
-## Modulo de monitoreo para instancias EC2
+## Modulo de monitoreo para instancias EKS
 
 Modo de uso📣🤖
-Este módulo de Terraform permite configurar el monitoreo de instancias EC2 en AWS utilizando CloudWatch. Proporciona métricas y alarmas para asegurar que las instancias estén funcionando correctamente y para notificar sobre cualquier problema.
+Este módulo de Terraform permite configurar el monitoreo de instancias EKS en AWS utilizando CloudWatch. Proporciona métricas y alarmas para asegurar que las instancias estén funcionando correctamente y para notificar sobre cualquier problema.
 
 ---
 
@@ -13,3 +11,7 @@ cluster_name = ###Nombre del cluster
 sns_topic_arn = ##Nombre del SNS Topic
 
 }
+
+##
+
+---👾🏆
